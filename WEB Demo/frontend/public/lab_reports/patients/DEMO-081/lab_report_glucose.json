@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "patient_id": "DEMO-081",
+    "encounter_id": 76504830,
+    "report_type": "GLUCOSE",
+    "report_id": "LAB-DEMO-081-GLUCOSE",
+    "patient_name": "Samuel Scott",
+    "synthetic_mrn": "MRN-202600081",
+    "age_display": 34,
+    "age_band": "[30-40)",
+    "gender": "Male",
+    "race": "Caucasian",
+    "primary_physician": "Dr. Sarah Mitchell",
+    "ward_unit": "General Medicine Ward",
+    "room_number": "1A-180",
+    "reviewed_by": "Maria Thompson, RN",
+    "review_timestamp": "2026-06-21 08:20",
+    "collection_datetime": "2026-06-21 06:20",
+    "reported_datetime": "2026-06-21 08:20",
+    "num_lab_procedures": 22,
+    "diabetesMed": "Yes",
+    "key_diabetes_medications": "insulin: Steady",
+    "risk_category": "Low Risk",
+    "calibrated_risk_pct": 7.65,
+    "diag_1_group": "Other",
+    "diag_2_group": "Diabetes",
+    "diag_3_group": "Other"
+  },
+  "result": {
+    "test_name": "Random Blood Sugar / Max Serum Glucose",
+    "investigation": "Random Blood Sugar",
+    "structured_category": ">200",
+    "simulated_numeric_result": 270,
+    "unit": "mg/dL",
+    "reference_range_text": "Source category indicates max serum glucose >200 mg/dL",
+    "status_label": "High"
+  },
+  "interpretation": "The recorded glucose category is elevated above 200 mg/dL, suggesting clinically relevant hyperglycemia during the encounter. In discharge review, this should be considered alongside diabetes medication status, recent medication changes, and follow-up planning. This result should be interpreted alongside the broader discharge context because the patient is flagged for low readmission risk (7.65%); diabetes medication use is recorded; the medication record includes insulin: Steady.",
+  "limitation": "Portfolio simulation note: This lab report is generated from structured categorical lab data in the public source dataset. The numeric value is simulated within the recorded category for demonstration and is not an original laboratory value."
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "patient_id": "DEMO-087",
+    "encounter_id": 247189596,
+    "report_type": "HBA1C",
+    "report_id": "LAB-DEMO-087-HBA1C",
+    "patient_name": "Julia Morris",
+    "synthetic_mrn": "MRN-202600087",
+    "age_display": 57,
+    "age_band": "[50-60)",
+    "gender": "Female",
+    "race": "Hispanic",
+    "primary_physician": "Dr. Hannah Roberts",
+    "ward_unit": "Gastroenterology Ward",
+    "room_number": "7C-186",
+    "reviewed_by": "Jessica Lee, RN",
+    "review_timestamp": "2026-06-21 14:02",
+    "collection_datetime": "2026-06-21 12:02",
+    "reported_datetime": "2026-06-21 14:02",
+    "num_lab_procedures": 76,
+    "diabetesMed": "Yes",
+    "key_diabetes_medications": "metformin: Steady; glipizide: Steady; insulin: Down",
+    "risk_category": "Low Risk",
+    "calibrated_risk_pct": 6.31,
+    "diag_1_group": "Digestive",
+    "diag_2_group": "Digestive",
+    "diag_3_group": "Genitourinary"
+  },
+  "result": {
+    "test_name": "HbA1c (Glycosylated Hemoglobin)",
+    "investigation": "Glycosylated Hemoglobin, HbA1c",
+    "structured_category": "Norm",
+    "simulated_numeric_result": 5.1,
+    "unit": "%",
+    "reference_range_text": "Normal: <5.7% | Prediabetes: 5.7–6.4% | Diabetes diagnostic threshold: ≥6.5%",
+    "status_label": "Normal"
+  },
+  "interpretation": "HbA1c falls within the normal structured category. This is reassuring from the available glycemic record and does not add an obvious medium-term glycemic-control concern. This result should be interpreted alongside the broader discharge context because the patient is flagged for low readmission risk (6.31%); diabetes medication use is recorded.",
+  "limitation": "Portfolio simulation note: This lab report is generated from structured categorical lab data in the public source dataset. The numeric value is simulated within the recorded category for demonstration and is not an original laboratory value."
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "patient_id": "DEMO-010",
+    "encounter_id": 275660550,
+    "report_type": "HBA1C",
+    "report_id": "LAB-DEMO-010-HBA1C",
+    "patient_name": "Mia Mitchell",
+    "synthetic_mrn": "MRN-202600010",
+    "age_display": 66,
+    "age_band": "[60-70)",
+    "gender": "Female",
+    "race": "Caucasian",
+    "primary_physician": "Dr. Michael Chen",
+    "ward_unit": "Endocrinology Ward",
+    "room_number": "2B-109",
+    "reviewed_by": "Laura Bennett, RN",
+    "review_timestamp": "2026-06-21 17:03",
+    "collection_datetime": "2026-06-21 15:03",
+    "reported_datetime": "2026-06-21 17:03",
+    "num_lab_procedures": 57,
+    "diabetesMed": "Yes",
+    "key_diabetes_medications": "repaglinide: Steady; insulin: Up",
+    "risk_category": "High Risk",
+    "calibrated_risk_pct": 21.63,
+    "diag_1_group": "Diabetes",
+    "diag_2_group": "Circulatory",
+    "diag_3_group": "Circulatory"
+  },
+  "result": {
+    "test_name": "HbA1c (Glycosylated Hemoglobin)",
+    "investigation": "Glycosylated Hemoglobin, HbA1c",
+    "structured_category": ">7",
+    "simulated_numeric_result": 7.8,
+    "unit": "%",
+    "reference_range_text": "Therapeutic monitoring category: >7% recorded in source data",
+    "status_label": "Elevated"
+  },
+  "interpretation": "HbA1c is above the usual target range and suggests that medium-term glycemic control may need follow-up review. This is clinically relevant because diabetes medication use or diabetes-related diagnosis context is present in the encounter record. This result should be interpreted alongside the broader discharge context because the patient is flagged for high readmission risk (21.63%); diabetes medication use is recorded; the medication record includes repaglinide: Steady and insulin: Up.",
+  "limitation": "Portfolio simulation note: This lab report is generated from structured categorical lab data in the public source dataset. The numeric value is simulated within the recorded category for demonstration and is not an original laboratory value."
+}

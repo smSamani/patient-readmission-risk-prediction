@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "patient_id": "DEMO-082",
+    "encounter_id": 258986220,
+    "report_type": "HBA1C",
+    "report_id": "LAB-DEMO-082-HBA1C",
+    "patient_name": "Samuel Edwards",
+    "synthetic_mrn": "MRN-202600082",
+    "age_display": 52,
+    "age_band": "[50-60)",
+    "gender": "Male",
+    "race": "Not recorded",
+    "primary_physician": "Dr. Michael Chen",
+    "ward_unit": "Cardiology Ward",
+    "room_number": "2B-181",
+    "reviewed_by": "Jessica Lee, RN",
+    "review_timestamp": "2026-06-21 09:27",
+    "collection_datetime": "2026-06-21 07:27",
+    "reported_datetime": "2026-06-21 09:27",
+    "num_lab_procedures": 45,
+    "diabetesMed": "Yes",
+    "key_diabetes_medications": "insulin: Down",
+    "risk_category": "Low Risk",
+    "calibrated_risk_pct": 7.46,
+    "diag_1_group": "Circulatory",
+    "diag_2_group": "Circulatory",
+    "diag_3_group": "Circulatory"
+  },
+  "result": {
+    "test_name": "HbA1c (Glycosylated Hemoglobin)",
+    "investigation": "Glycosylated Hemoglobin, HbA1c",
+    "structured_category": ">8",
+    "simulated_numeric_result": 8.4,
+    "unit": "%",
+    "reference_range_text": "Therapeutic monitoring category: >8% recorded in source data",
+    "status_label": "High"
+  },
+  "interpretation": "HbA1c is markedly elevated and suggests persistent hyperglycemia over the preceding weeks. In discharge planning, this should remain visible during medication reconciliation, diabetes education review, and follow-up coordination. This result should be interpreted alongside the broader discharge context because the patient is flagged for low readmission risk (7.46%); diabetes medication use is recorded; the medication record includes insulin: Down.",
+  "limitation": "Portfolio simulation note: This lab report is generated from structured categorical lab data in the public source dataset. The numeric value is simulated within the recorded category for demonstration and is not an original laboratory value."
+}

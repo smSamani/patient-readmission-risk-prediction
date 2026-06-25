@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "patient_id": "DEMO-039",
+    "encounter_id": 272632632,
+    "report_type": "HBA1C",
+    "report_id": "LAB-DEMO-039-HBA1C",
+    "patient_name": "William Wilson",
+    "synthetic_mrn": "MRN-202600039",
+    "age_display": 66,
+    "age_band": "[60-70)",
+    "gender": "Male",
+    "race": "Caucasian",
+    "primary_physician": "Dr. Hannah Roberts",
+    "ward_unit": "Gastroenterology Ward",
+    "room_number": "7C-138",
+    "reviewed_by": "Rachel Green, RN",
+    "review_timestamp": "2026-06-21 16:26",
+    "collection_datetime": "2026-06-21 14:26",
+    "reported_datetime": "2026-06-21 16:26",
+    "num_lab_procedures": 60,
+    "diabetesMed": "Yes",
+    "key_diabetes_medications": "insulin: Steady",
+    "risk_category": "High Risk",
+    "calibrated_risk_pct": 15.23,
+    "diag_1_group": "Digestive",
+    "diag_2_group": "Diabetes",
+    "diag_3_group": "Other"
+  },
+  "result": {
+    "test_name": "HbA1c (Glycosylated Hemoglobin)",
+    "investigation": "Glycosylated Hemoglobin, HbA1c",
+    "structured_category": "Norm",
+    "simulated_numeric_result": 5.5,
+    "unit": "%",
+    "reference_range_text": "Normal: <5.7% | Prediabetes: 5.7–6.4% | Diabetes diagnostic threshold: ≥6.5%",
+    "status_label": "Normal"
+  },
+  "interpretation": "HbA1c falls within the normal structured category. This is reassuring from the available glycemic record and does not add an obvious medium-term glycemic-control concern. This result should be interpreted alongside the broader discharge context because the patient is flagged for high readmission risk (15.23%); diabetes medication use is recorded.",
+  "limitation": "Portfolio simulation note: This lab report is generated from structured categorical lab data in the public source dataset. The numeric value is simulated within the recorded category for demonstration and is not an original laboratory value."
+}

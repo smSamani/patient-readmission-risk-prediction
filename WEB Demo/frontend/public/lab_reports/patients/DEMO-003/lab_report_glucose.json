@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "patient_id": "DEMO-003",
+    "encounter_id": 109433874,
+    "report_type": "GLUCOSE",
+    "report_id": "LAB-DEMO-003-GLUCOSE",
+    "patient_name": "Chris Baker",
+    "synthetic_mrn": "MRN-202600003",
+    "age_display": 73,
+    "age_band": "[70-80)",
+    "gender": "Male",
+    "race": "Caucasian",
+    "primary_physician": "Dr. James Wilson",
+    "ward_unit": "Cardiology Ward",
+    "room_number": "3C-102",
+    "reviewed_by": "Ahmed Hassan, RN",
+    "review_timestamp": "2026-06-21 10:14",
+    "collection_datetime": "2026-06-21 08:14",
+    "reported_datetime": "2026-06-21 10:14",
+    "num_lab_procedures": 12,
+    "diabetesMed": "Yes",
+    "key_diabetes_medications": "glipizide: Steady; pioglitazone: Steady",
+    "risk_category": "High Risk",
+    "calibrated_risk_pct": 30.25,
+    "diag_1_group": "Circulatory",
+    "diag_2_group": "Circulatory",
+    "diag_3_group": "Genitourinary"
+  },
+  "result": {
+    "test_name": "Random Blood Sugar / Max Serum Glucose",
+    "investigation": "Random Blood Sugar",
+    "structured_category": ">200",
+    "simulated_numeric_result": 278,
+    "unit": "mg/dL",
+    "reference_range_text": "Source category indicates max serum glucose >200 mg/dL",
+    "status_label": "High"
+  },
+  "interpretation": "The recorded glucose category is elevated above 200 mg/dL, suggesting clinically relevant hyperglycemia during the encounter. In discharge review, this should be considered alongside diabetes medication status, recent medication changes, and follow-up planning. This result should be interpreted alongside the broader discharge context because the patient is flagged for high readmission risk (30.25%); diabetes medication use is recorded; the medication record includes glipizide: Steady and pioglitazone: Steady.",
+  "limitation": "Portfolio simulation note: This lab report is generated from structured categorical lab data in the public source dataset. The numeric value is simulated within the recorded category for demonstration and is not an original laboratory value."
+}

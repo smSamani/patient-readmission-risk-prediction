@@ -1,0 +1,8 @@
+Model,Best CV F1,Best Params
+Decision Tree,0.866392308729099,"{'min_samples_split': 5, 'min_samples_leaf': 1, 'max_depth': None, 'criterion': 'entropy'}"
+Random Forest,0.9189702058582441,"{'n_estimators': 350, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 0.5, 'max_depth': None, 'bootstrap': False}"
+Gradient Boosting,0.9115953764773842,"{'subsample': 0.8, 'n_estimators': 300, 'min_samples_leaf': 3, 'max_depth': 4, 'learning_rate': 0.1}"
+XGBoost,0.9116445687758952,"{'subsample': 0.8, 'reg_lambda': 1, 'n_estimators': 300, 'min_child_weight': 1, 'max_depth': 5, 'learning_rate': 0.05, 'gamma': 0.1, 'colsample_bytree': 0.8}"
+LightGBM,0.923277552331482,"{'subsample': 0.8, 'num_leaves': 127, 'n_estimators': 300, 'max_depth': -1, 'learning_rate': 0.1, 'colsample_bytree': 1.0}"
+Logistic Regression,0.9078219653299913,"{'model__solver': 'liblinear', 'model__penalty': 'l1', 'model__C': np.float64(0.1668100537200059)}"
+MLP,0.915232012043095,"{'model__learning_rate_init': 0.01, 'model__hidden_layer_sizes': (64, 32), 'model__alpha': 0.001}"

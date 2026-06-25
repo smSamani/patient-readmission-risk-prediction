@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Data artifacts
+data/raw/
+data/processed/
+data/*.db
+*.sqlite
+!WEB Demo/diabetes_readmission_demo.sqlite
+*.db
+*.csv.gz
+*.parquet
+*.feather
+*.pkl
+*.joblib
+model_outputs*/
+!model_outputs_cpu/
+!model_outputs_cpu/*.csv
+!model_outputs_islam_stacking_cpu/
+!model_outputs_islam_stacking_cpu/*.csv
+
+# Web/demo build artifacts
+WEB Demo/frontend/node_modules/
+WEB Demo/frontend/dist/
+WEB Demo/.venv-backend/
+WEB Demo/.pytest_cache/
+WEB Demo/backend/.env
+
+# Tableau temporary files
+dashboard/.~*.twbr
+
+# Secrets
+.env
+*.pem
+*.key

@@ -1,0 +1,4 @@
+Model,Best CV ROC-AUC,Best Params
+Logistic Regression + RFE,0.6554038007184774,"{'penalty': 'l2', 'C': np.float64(0.001)}"
+XGBoost CPU + RFE,0.6655163299541459,"{'subsample': 0.8, 'reg_lambda': 1, 'reg_alpha': 0, 'n_estimators': 200, 'min_child_weight': 3, 'max_depth': 4, 'learning_rate': 0.05, 'gamma': 0.1, 'colsample_bytree': 0.7}"
+Random Forest + RFE,0.6601731471244199,"{'n_estimators': 150, 'min_samples_split': 20, 'min_samples_leaf': 8, 'max_features': 'sqrt', 'max_depth': 12, 'bootstrap': False}"

@@ -1,0 +1,4 @@
+Option,Threshold
+Academic default,0.5
+Best F1,0.55
+Recall >= 0.70 if possible,0.4

@@ -1,0 +1,25 @@
+{
+  "previous_xgboost_auc": 0.648,
+  "previous_xgboost_recall": 0.547,
+  "previous_xgboost_f1": 0.224,
+  "new_best_xgboost_model": "XGBoost Tuned",
+  "new_xgboost_auc": 0.6767477704318876,
+  "new_xgboost_recall_at_0_5": 0.5669465311533363,
+  "new_xgboost_f1_at_0_5": 0.2809591590933976,
+  "reference_xgboost_auc": 0.667,
+  "main_rows_after_cleaning": 99340,
+  "deduplicate_patients_main_run": false,
+  "medical_specialty_removed": true,
+  "top_10_shap_features": [
+    "num__number_inpatient",
+    "num__discharge_disposition_id",
+    "num__prior_utilization_total",
+    "num__age_numeric",
+    "num__number_diagnoses",
+    "num__time_in_hospital",
+    "cat__diag_1_group_Circulatory",
+    "num__num_medications",
+    "cat__diag_1_group_Respiratory",
+    "num__num_lab_procedures"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "patient_id": "DEMO-060",
+    "encounter_id": 108497244,
+    "report_type": "GLUCOSE",
+    "report_id": "LAB-DEMO-060-GLUCOSE",
+    "patient_name": "Olivia Patel",
+    "synthetic_mrn": "MRN-202600060",
+    "age_display": 82,
+    "age_band": "[80-90)",
+    "gender": "Female",
+    "race": "Caucasian",
+    "primary_physician": "Dr. Priya Patel",
+    "ward_unit": "Cardiology Ward",
+    "room_number": "4D-159",
+    "reviewed_by": "Laura Bennett, RN",
+    "review_timestamp": "2026-06-21 17:53",
+    "collection_datetime": "2026-06-21 15:53",
+    "reported_datetime": "2026-06-21 17:53",
+    "num_lab_procedures": 60,
+    "diabetesMed": "Yes",
+    "key_diabetes_medications": "repaglinide: Steady",
+    "risk_category": "Medium Risk",
+    "calibrated_risk_pct": 11.55,
+    "diag_1_group": "Circulatory",
+    "diag_2_group": "Circulatory",
+    "diag_3_group": "Circulatory"
+  },
+  "result": {
+    "test_name": "Random Blood Sugar / Max Serum Glucose",
+    "investigation": "Random Blood Sugar",
+    "structured_category": "Norm",
+    "simulated_numeric_result": 99,
+    "unit": "mg/dL",
+    "reference_range_text": "Reference range used for demo: 70–140 mg/dL",
+    "status_label": "Normal"
+  },
+  "interpretation": "The recorded glucose category is within the normal structured range. This finding does not indicate an acute glycemic warning in the available report. This result should be interpreted alongside the broader discharge context because the patient is flagged for medium readmission risk (11.55%); diabetes medication use is recorded.",
+  "limitation": "Portfolio simulation note: This lab report is generated from structured categorical lab data in the public source dataset. The numeric value is simulated within the recorded category for demonstration and is not an original laboratory value."
+}
