@@ -139,6 +139,12 @@ This keeps the repository small, reproducible, and safe to share.
 
 This project is a research and portfolio implementation, not a deployed medical device. Predictions should not be used as the sole basis for clinical decisions. Model performance depends on the source data, preprocessing assumptions, feature availability, and local validation in the target care setting.
 
-## License
+## Case Study Under Academic Review
 
-This project is released under the MIT License.
+The complete executive case study has been temporarily withheld while this project undergoes academic review and research evaluation.
+
+As the project is being prepared for potential publication, detailed methodology, implementation decisions, experimental results, and technical documentation are not yet publicly available.
+
+A public version of the case study will be released after the academic review process is completed.
+
+Thank you for your understanding.
