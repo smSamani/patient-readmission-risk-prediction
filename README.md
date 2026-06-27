@@ -52,7 +52,6 @@ That split shaped the whole project: the model predicts risk, SQL explains popul
 ```text
 .
 ├── SQL/                         # SQL queries for clinical and operational analysis
-├── WEB Demo/                    # FastAPI backend, React frontend, and demo SQLite data
 ├── dashboard/                   # Tableau packaged workbook and dashboard screenshots
 ├── figures/                     # Model evaluation and explainability visualizations
 ├── model_outputs_cpu/           # Lightweight model result tables
@@ -118,75 +117,18 @@ python models/train_models_cpu.py
 
 ## Web Demo
 
-The web demo is where the project becomes tangible. It turns the model, SHAP outputs, SQL thinking, and patient data into an interactive clinical workflow.
-
-🌐 **Project walkthrough:** [www.smsamani.uk/#/project-discharge](https://www.smsamani.uk/#/project-discharge)  
-🧪 **Live patient portal:** [www.smsamani.uk/patient/](https://www.smsamani.uk/patient/)
-
-### Demo Album
+🧪 **Test the live demo:** [www.smsamani.uk/patient/](https://www.smsamani.uk/patient/)
 
 | Project story | Patient queue | Clinical AI copilot |
 | --- | --- | --- |
 | ![Project walkthrough showing stakeholder-driven discharge intelligence story](docs/assets/readme-project-story.png) | ![Clinical patient queue with AI query mode and risk filters](docs/assets/readme-patient-queue.png) | ![Clinical AI copilot with evidence-grounded discharge review](docs/assets/readme-clinical-copilot.png) |
-
-### What to Try
-
-- 🧭 Use the project walkthrough to understand the full product story.
-- 🔎 Search the patient queue using AI query mode, for example: `Show Dr Carter patient aged 30-50 who came from the ER`.
-- 🧑‍⚕️ Open a patient chart and review demographics, risk score, diagnoses, labs, medications, and intervention context.
-- ✨ Ask the Clinical AI Copilot: `Evaluate discharge readiness` or `Why is this patient high risk?`.
-- 🧾 Expand model evidence cards to inspect SHAP audit trails behind patient-level risk explanations.
-
-### Local Backend
-
-```bash
-cd "WEB Demo/backend"
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
-
-By default, the backend reads:
-
-```text
-WEB Demo/diabetes_readmission_demo.sqlite
-```
-
-You can override the database path with:
-
-```bash
-export DIABETES_READMISSION_DB="/absolute/path/to/diabetes_readmission_demo.sqlite"
-```
-
-Optional Gemini-powered features require an environment variable:
-
-```bash
-export GEMINI_API_KEY="your_api_key_here"
-```
-
-No API keys are committed to this repository.
-
-### Local Frontend
-
-```bash
-cd "WEB Demo/frontend"
-npm install
-npm run dev
-```
-
-The frontend uses `VITE_API_BASE_URL` when provided and otherwise defaults to:
-
-```text
-http://127.0.0.1:8000
-```
 
 ## Data and Artifact Policy
 
 This repository is prepared as a clean GitHub release. The following files are intentionally excluded:
 
 - Raw and processed datasets
-- Local SQLite databases, except the small web demo database
+- Local SQLite databases
 - Serialized `.pkl` and `.joblib` model artifacts
 - Virtual environments, caches, build outputs, and OS metadata
 - Secret files such as `.env`
