@@ -26,15 +26,14 @@ The system includes:
 
 ## Key Results
 
-The best XGBoost model improved over the earlier baseline while maintaining clinically useful recall for the readmitted class.
+Model comparison after recursive feature elimination (RFE) with 40 selected features:
 
-| Model | ROC-AUC | PR-AUC | Recall | F1-score |
+| Model | Selected Features | ROC-AUC | PR-AUC | Accuracy |
 | --- | ---: | ---: | ---: | ---: |
-| Logistic Regression | 0.652 | 0.207 | 0.535 | 0.264 |
-| XGBoost Default | 0.677 | 0.229 | 0.590 | 0.278 |
-| XGBoost Tuned | 0.677 | 0.228 | 0.567 | 0.281 |
-| Random Forest | 0.666 | 0.216 | 0.506 | 0.274 |
-| LightGBM | 0.674 | 0.227 | 0.563 | 0.278 |
+| Logistic Regression + RFE | 40 | 0.6585 | 0.207 | 0.6517 |
+| XGBoost CPU + RFE | 40 | 0.6717 | 0.22 | 0.6482 |
+| Random Forest + RFE | 40 | 0.6635 | 0.2178 | 0.7004 |
+| Stacking Ensemble | 40 | 0.6001 | 0.1596 | 0.8715 |
 
 The final pipeline was trained on **99,340 cleaned encounters**. Important risk drivers included prior inpatient utilization, discharge disposition, total prior utilization, age, number of diagnoses, time in hospital, diagnosis group, medication count, and lab procedure volume.
 
